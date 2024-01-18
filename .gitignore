@@ -1,0 +1,10 @@
+#Este archivo va decirle que archivos son los que no quiero agregar allí
+
+.env
+node_modules
+.DS_Store
+
+#git add .: para agregar a todos los archivos
+#git branch -M main: genera ese branch nuevo llamado main y nos mueve a ese brach
+#git remoto agregar origen https://github.com/JeisonCieza/agenciaviajesnode.git: va a decirle que el código(package.json) pertenece a tal repositorio
+#

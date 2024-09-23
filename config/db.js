@@ -3,7 +3,9 @@ import dotenv from 'dotenv';
 //Tener acceso a los valores de la variable de entorno(dotenv)
 dotenv.config()
 
+// const db = new Sequelize('agenciaviajes', 'root', '', {
 const db = new Sequelize(process.env.DATABASE_URL, {
+    
     define: {
         timestamps: false
     },
